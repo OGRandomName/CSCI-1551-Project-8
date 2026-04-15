@@ -1,0 +1,40 @@
+# Python bytecode
+*.pyc
+__pycache__/
+ 
+# Panda3D generated files
+*.bam # Binary animation/model files
+*.egg.pz # Compressed egg files (often generated from .egg)
+*.pstats # Profiling statistics files
+*.log # Log files
+*.prc # Config files (if they are dynamically generated or user-specific)
+ 
+# Build artifacts (if you are compiling C++ extensions or using a build system)
+build/
+dist/
+*.o
+*.so
+*.dll
+*.lib
+*.exp
+ 
+# Temporary files
+*~ # Emacs/Vim backup files
+*.bak
+*.tmp
+ 
+# IDE specific files (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
+ 
+# Operating System specific files
+.DS_Store
+Thumbs.db
+ 
+# Large assets or resources not managed by Git (optional)
+# If you have very large assets that are stored elsewhere or
+# are not part of the core repository, you might exclude them.
+# For example:
+# assets/large_textures/
+# models/high_poly_models/
+ 
